@@ -1,12 +1,12 @@
-# catch-my-exception
+# catch-my-exceptions
 
 ## Catch node.js exceptions and send a detailed trace to a Slack webhook
 
-### ``var catchMyException = require('catch-my-exception')``
+### ``var catchMyExceptions = require('catch-my-exceptions')``
 
-### ``catchMyException(webbookUri, opts)``
+### ``catchMyExceptions(webbookUri, opts)``
 
-**Call catchMyException with your Slack webhookUri and the appropriate options at the initialization of your app.**
+**Call catchMyExceptions with your Slack webhookUri and the appropriate options at the initialization of your app.**
 
 ##### Opts:
 
