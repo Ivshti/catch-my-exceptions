@@ -1,0 +1,27 @@
+{
+  "name": "catch-my-exceptions",
+  "version": "1.0.0",
+  "description": "Catch uncaughtException in node and send to Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ivshti/catch-my-exception"
+  },
+  "keywords": [
+    "catch",
+    "uncaught",
+    "exception",
+    "uncaughtexception",
+    "slack",
+    "webhook"
+  ],
+  "author": "Ivo Georgiev <ivo@strem.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ivshti/catch-my-exception/issues"
+  },
+  "homepage": "https://github.com/Ivshti/catch-my-exception"
+}
