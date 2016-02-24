@@ -19,4 +19,5 @@ module.exports = function catchMyException(webhookUri, opts) {
        if (err) console.error(err)
        if (opts.quitOnException) process.exit()
      })
+   })
 }

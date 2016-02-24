@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Ivshti/catch-my-exception/issues"
   },
-  "homepage": "https://github.com/Ivshti/catch-my-exception"
+  "homepage": "https://github.com/Ivshti/catch-my-exception",
+  "dependencies": {
+    "slack-node": "^0.2.0"
+  }
 }
