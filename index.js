@@ -8,8 +8,7 @@ module.exports = function catchMyException(webhookUri, opts) {
    slack.setWebhook(webhookUri)
 
    process.on("uncaughtException", function(err) {
-     console.log(err);
-     console.trace();
+     console.log( (err.message || err)+" "+err.stack );
 
      slack.webhook({ 
            channel: opts.slackChannel || "#bugs", 
