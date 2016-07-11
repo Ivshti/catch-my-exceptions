@@ -13,7 +13,7 @@ module.exports = function catchMyException(webhookUri, opts) {
      slack.webhook({ 
            channel: opts.slackChannel || "#bugs", 
            username: opts.slackUsername || "webhookbot", 
-           text: (err.message || err)+" "+err.stack 
+           text: "```"+ (err.message || err)+" "+err.stack + "```" 
       },function(err,resp){  
        if (err) console.error(err)
        if (opts.quitOnException) process.exit()
